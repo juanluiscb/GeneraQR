@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+</head>
+<body>
+  {% for elemento in lista %}
+    <p>Folio: {{elemento.id}}</p>
+    <p>Nombre: {{ elemento.nombre }} - {{ elemento.curso}}</p>
+    <p><img src="/archivos/qr_{{ elemento.id }}.png" alt=""></p>
+  {% endfor %}
+</body>
+</html>

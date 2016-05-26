@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3874502607">
+    <data-source source="LOCAL" name="QR" uuid="b15744ca-71b3-49be-b74c-f8f320c0230e">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/GeneraQr/db.sqlite3</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
